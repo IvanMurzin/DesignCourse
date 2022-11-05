@@ -47,10 +47,10 @@ body {
 }
 
 .contraction {
-  padding: 0 15%;
+  padding: 0 10%;
 
   &.abs {
-    width: 70%;
+    width: 80%;
   }
 }
 
@@ -86,7 +86,7 @@ a {
   opacity: 1;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1300px) {
   .contraction {
     padding: 0 5%;
 

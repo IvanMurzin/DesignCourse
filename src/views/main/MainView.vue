@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import MainViewSubstrate from './widget/MainViewSubstrate.vue'
 import MainViewHeader from './widget/MainViewHeader.vue'
+import MainViewMainInfo from './widget/MainViewMainInfo.vue'
 </script>
 
 <template>
@@ -10,9 +11,7 @@ import MainViewHeader from './widget/MainViewHeader.vue'
   <div class="main-view contraction abs">
     <MainViewSubstrate />
     <div class="wrapper">
-      <p>
-        /n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n/n/n<br>/n/n<br>
-      </p>
+      <MainViewMainInfo />
     </div>
   </div>
 </template>
