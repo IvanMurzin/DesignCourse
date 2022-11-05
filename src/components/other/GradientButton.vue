@@ -1,17 +1,15 @@
 <template>
   <button ref="root" class="gradient-btn" :disabled="disabled" onclick="this.blur()">
     <svg class="after" :key="key" :class="{ grey: grey || disabled }" xmlns="http://www.w3.org/2000/svg">
-      <rect
-        x="0.5em"
-        y="0.5em"
-        stroke-width="1em"
-        fill="none"
-        rx="3em"
-        style="height: calc(100% - 1em); width: calc(100% - 1em)"
-      />
+      <rect x="0.5em" y="0.5em" stroke-width="1em" fill="none" rx="3em"
+        style="height: calc(100% - 1em); width: calc(100% - 1em)" />
     </svg>
-    <div v-if="divMode" style="height: 100%; padding: 0.1em !important"><slot /></div>
-    <span v-else><slot /></span>
+    <div v-if="divMode" style="height: 100%; padding: 0.1em !important">
+      <slot />
+    </div>
+    <span v-else>
+      <slot />
+    </span>
   </button>
 </template>
 
@@ -62,19 +60,20 @@ button:before,
 
 button:before {
   content: '';
-  border-radius: calc(3 * var(--border-width));
   border: var(--border-width) solid black;
   box-sizing: border-box;
-  top: calc(1.5 * var(--border-width));
+  top: calc(-1.5 * var(--border-width));
   left: calc(1.5 * var(--border-width));
 }
 
 .after {
-  font-size: var(--border-width);
-  top: calc(-1.5 * var(--border-width));
+  content: '';
+  border: var(--border-width) solid black;
+  box-sizing: border-box;
+  top: calc(1.5 * var(--border-width));
   left: calc(-1.5 * var(--border-width));
-  stroke: url(#bgrad);
 }
+
 
 .grey {
   stroke: #b3b3b3;
@@ -82,11 +81,11 @@ button:before {
 
 @media (hover) {
   button:hover:before {
-    transform: translate3d(0, calc(-3 * var(--border-width)), 0);
+    transform: translate3d(calc(-1.5 * var(--border-width)), calc(1.5 * var(--border-width)), 0);
   }
 
   button:hover .after {
-    transform: translate3d(0, calc(3 * var(--border-width)), 0);
+    transform: translate3d(calc(1.5 * var(--border-width)), calc(-1.5 * var(--border-width)), 0);
   }
 }
 
@@ -113,7 +112,8 @@ button:active .after {
   }
 }
 
-@media screen and (max-width: 20em), screen and (max-height: 20em) {
+@media screen and (max-width: 20em),
+screen and (max-height: 20em) {
   button {
     padding: 0.2em 1.6em;
     --border-width: 1px;
