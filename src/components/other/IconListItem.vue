@@ -22,6 +22,7 @@ import logo from '@/assets/logo/design_logo.svg'
 .item__text {
   margin: 0 0 0 1em;
   color: black;
+  font-weight: 600;
   font-size: 3em;
 }
 

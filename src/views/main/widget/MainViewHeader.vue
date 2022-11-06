@@ -14,6 +14,7 @@ import { onBeforeMount } from 'vue'
     </a>
     <div class="header__dc"></div>
     <GradientButton @click="">Войти</GradientButton>
+    <div class="sized_box"></div>
     <a class="a" tabindex="2" href="https://mephi.ru/">
       <img style="width: 100%" src="@/assets/logo/mephi_logo.svg" alt="mephi logo" />
     </a>
@@ -23,8 +24,8 @@ import { onBeforeMount } from 'vue'
 <style lang="scss" scoped>
 .header {
   display: grid;
-  grid-template-columns: 6em 2fr auto 10em;
-  grid-gap: 5em;
+  grid-template-columns: 6em 2fr auto 2em 10em;
+  grid-gap: 2em;
   align-items: center;
   margin-top: 2.5em;
   margin-bottom: 2.5em;
