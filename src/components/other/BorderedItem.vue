@@ -17,8 +17,8 @@ defineProps<{
   position: relative;
   display: inline-block;
   padding-top: 0em;
-  padding-left:   3em;
-  padding-right:  3em;
+  padding-left: 3em;
+  padding-right: 3em;
   padding-bottom: 2em;
   border: 2px solid black;
   box-shadow: -10px 10px black;
@@ -46,12 +46,18 @@ defineProps<{
   color: black;
 }
 
+@media screen and (max-width: 1160px) {
+  .item {
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .item {
     font-size: 0.8em;
   }
 
-  .item__title{
+  .item__title {
     font-size: 1.8em;
   }
 }
