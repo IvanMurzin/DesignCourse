@@ -8,7 +8,7 @@ import MainViewTitle from '@/components/other/MainViewTitle.vue';
     <img class="window" src="@/assets/window.svg" alt="design course logo" />
     <h2 class="title">Кто такой UI/UX дизайнер?</h2>
     <p class="text">
-      Специалист, проектирующий понятный, доступный для пользователя интерфейс.
+      Специалист, проектирующий понятный, доступный для пользователя интерфейс.<br>
       Он исследует целевую аудиторию, анализирует поведение пользователя, решает, как улучшить продукт.
     </p>
   </div>
@@ -42,6 +42,7 @@ import MainViewTitle from '@/components/other/MainViewTitle.vue';
 }
 
 .text {
+  text-align: justify;
   position: absolute;
   top: 25%;
   left: 10%;

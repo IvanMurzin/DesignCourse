@@ -3,6 +3,7 @@ import MainViewSubstrate from './widget/MainViewSubstrate.vue'
 import MainViewHeader from './widget/MainViewHeader.vue'
 import MainViewMainInfo from './widget/MainViewMainInfo.vue'
 import MainViewAbout from './widget/MainViewAbout.vue'
+import MainViewWhatInside from './widget/MainViewWhatInside.vue'
 </script>
 
 <template>
@@ -14,6 +15,15 @@ import MainViewAbout from './widget/MainViewAbout.vue'
     <div class="wrapper">
       <MainViewMainInfo />
       <MainViewAbout />
+      <MainViewWhatInside />
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
   </div>
 </template>
