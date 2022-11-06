@@ -20,7 +20,12 @@
       style="transform: translate(-30%, 190%) rotate(0deg) scale(0.5);" />
     <img src="@/assets/blob/blob_blue2.svg" class="substrate_elem"
       style="transform: translate(40%, 400%) rotate(0deg) scale(3);" />
+    <img src="@/assets/logo/design_logo.svg" class="substrate_logo"
+      style="transform: translate(40%, -32%) rotate(0deg) scale(0.4);" />
+    <img src="@/assets/logo/design_logo.svg" class="substrate_logo"
+      style="transform: translate(40%, 160%) rotate(0deg) scale(0.4);" />
   </div>
+
 </template>
 
 <style lang="scss" scoped>
@@ -35,5 +40,17 @@
     opacity: 1;
     width: 100%;
   }
+
+  .substrate_logo {
+    position: absolute;
+    opacity: 1;
+    width: 100%;
+
+
+    @media screen and (max-width: 1300px) {
+      width: 0;
+    }
+  }
+
 }
 </style>
