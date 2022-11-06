@@ -1,6 +1,6 @@
 <template>
   <div class="item">
-    <img style="width: 100%" :src="logo" alt="arrow" />
+    <img style="width: 100%" :src="logo" alt="" />
     <p class="item__text">
       <slot />
     </p>
