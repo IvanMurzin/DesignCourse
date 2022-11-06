@@ -46,12 +46,13 @@ import GradientButton from '@/components/other/GradientButton.vue'
     font-size: 4em;
     letter-spacing: 0.073em;
     color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    -webkit-text-stroke: 2px #000;
     user-select: none;
 
     @media screen and (max-width: 1160px) {
       content: 'UI/UX';
     }
+
     @media screen and (max-width: 1400px) {
       font-size: 3em;
     }
@@ -71,6 +72,7 @@ import GradientButton from '@/components/other/GradientButton.vue'
     @media screen and (max-width: 1160px) {
       content: '';
     }
+
     @media screen and (max-width: 1400px) {
       font-size: 3em;
     }
