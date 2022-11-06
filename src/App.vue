@@ -19,21 +19,16 @@ import { NConfigProvider, type GlobalThemeOverrides, NGlobalStyle } from 'naive-
 
 const themeOverrides: GlobalThemeOverrides = {
   common: {
-    primaryColor: '#f212ef',
-    primaryColorHover: '#f212ef',
-    primaryColorPressed: '#d310d0',
     fontFamily: 'Montserrat',
     fontFamilyMono: 'Montserrat'
   },
-  Button: {
-    borderHover: '2px solid #f212ef'
-  }
 }
 </script>
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 
 body {
   background: #fefefe;
@@ -42,7 +37,6 @@ body {
 }
 
 #app {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 

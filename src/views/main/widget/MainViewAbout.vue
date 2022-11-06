@@ -53,6 +53,10 @@ import MainViewTitle from '@/components/other/MainViewTitle.vue';
   margin: 0.3em 0 0.2em;
 
 
+  @media screen and (max-width: 1350px) {
+    font-size: 2.8em;
+  }
+
   @media screen and (max-width: 1200px) {
     font-size: 2.5em;
   }

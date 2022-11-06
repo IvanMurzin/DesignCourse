@@ -29,7 +29,6 @@ defineProps<{
 
 
 .item__title {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 2em;
   margin-bottom: 0.3em;
@@ -38,7 +37,6 @@ defineProps<{
 }
 
 .item__text {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   letter-spacing: 0.03em;
   font-size: 1.5em;

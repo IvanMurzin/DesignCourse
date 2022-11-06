@@ -40,7 +40,7 @@ import GradientButton from '@/components/other/GradientButton.vue'
 
   .header__dc:before {
     content: 'UI/UX';
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 600;
     font-size: 4em;
@@ -48,11 +48,6 @@ import GradientButton from '@/components/other/GradientButton.vue'
     color: white;
     -webkit-text-stroke: 2px #000;
     user-select: none;
-
-    @media screen and (max-width: 1160px) {
-      content: 'UI/UX';
-    }
-
     @media screen and (max-width: 1400px) {
       font-size: 3em;
     }
@@ -60,7 +55,7 @@ import GradientButton from '@/components/other/GradientButton.vue'
 
   .header__dc:after {
     content: 'Design Course';
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 4em;

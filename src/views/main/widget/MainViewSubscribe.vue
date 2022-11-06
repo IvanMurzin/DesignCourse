@@ -40,8 +40,9 @@ b {
 
 .item_num {
     font-size: 6.5em;
-    color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: transparent;
+    font-family: "Roboto";
+    -webkit-text-stroke: 2px #000;
 }
 
 .subscribe_item {
