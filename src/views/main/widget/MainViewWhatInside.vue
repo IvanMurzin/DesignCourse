@@ -13,7 +13,7 @@ import BorderedItem from '@/components/other/BorderedItem.vue'
                 Колористика, типографика, композиция
             </BorderedItem>
             <BorderedItem style="grid-area: c" title="Figma basics">
-                Основы Figma, адаптивный дизайн, моушн-дизайн, создание интерактивных прототипов 
+                Основы Figma, адаптивный дизайн, моушн-дизайн, создание интерактивных прототипов
             </BorderedItem>
             <BorderedItem style="grid-area: d" title="Практические задания">
                 В рамках курса студенты собирают своё собственное портфолио дизайнера
@@ -24,7 +24,7 @@ import BorderedItem from '@/components/other/BorderedItem.vue'
 
 <style lang="scss" scoped>
 .title_info {
-    font-size: 3.5em;
+    font-size: 3.8em;
     color: black;
     font-weight: 600;
     margin: 0.3em 0 0.2em;

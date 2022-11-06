@@ -1,9 +1,5 @@
 <script setup lang="ts">
 import GradientButton from '@/components/other/GradientButton.vue'
-import { useCustomScroll } from '@/use/customScroll'
-import { useRouter } from 'vue-router'
-import { storeToRefs } from 'pinia'
-import { onBeforeMount } from 'vue'
 
 </script>
 

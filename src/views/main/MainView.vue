@@ -5,6 +5,7 @@ import MainViewMainInfo from './widget/MainViewMainInfo.vue'
 import MainViewAbout from './widget/MainViewAbout.vue'
 import MainViewWhatInside from './widget/MainViewWhatInside.vue'
 import MainViewInvite from './widget/MainViewInvite.vue'
+import MainViewSubscribe from './widget/MainViewSubscribe.vue'
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import MainViewInvite from './widget/MainViewInvite.vue'
       <MainViewAbout />
       <MainViewWhatInside />
       <MainViewInvite />
+      <MainViewSubscribe />
       <br />
       <br />
       <br />
@@ -34,21 +36,21 @@ import MainViewInvite from './widget/MainViewInvite.vue'
       <br />
       <br />
       <br />
-      <br />      <br />
+      <br /> <br />
       <br />
       <br />
       <br />
       <br />
       <br />
       <br />
-      <br />      <br />
+      <br /> <br />
       <br />
       <br />
       <br />
       <br />
       <br />
       <br />
-      <br />      <br />
+      <br /> <br />
       <br />
       <br />
       <br />
