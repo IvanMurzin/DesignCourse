@@ -2,7 +2,14 @@
 
 <template>
   <div class="substrate">
-    <img v-for="idx in 3" :key="idx" src="@/assets/blob/blob_purple.svg" class="substrate_elem_purple" />
+    <img src="@/assets/blob/blob_purple1.svg" class="substrate_elem" style="transform: translate(-25%, -45%) rotate(0deg) scale(1);"/>
+    <img src="@/assets/blob/blob_purple2.svg" class="substrate_elem" style="transform: translate(10%, 55%) rotate(0deg) scale(0.8);"/>
+    <img src="@/assets/blob/blob_purple3.svg" class="substrate_elem" style="transform: translate(-35%, 160%) rotate(0deg) scale(1);"/>
+    <img src="@/assets/blob/blob_green1.svg" class="substrate_elem" style="transform: translate(-10%, -20%) rotate(0deg) scale(0.5);"/>
+    <img src="@/assets/blob/blob_green2.svg" class="substrate_elem" style="transform: translate(30%, 18%) rotate(0deg) scale(0.2);"/>
+    <img src="@/assets/blob/blob_green3.svg" class="substrate_elem" style="transform: translate(20%, 55%) rotate(0deg) scale(0.4);"/>
+    <img src="@/assets/blob/blob_blue1.svg" class="substrate_elem" style="transform: translate(-50%, 30%) rotate(0deg) scale(0.7);"/>
+    <img src="@/assets/blob/blob_blue2.svg" class="substrate_elem" style="transform: translate(-30%, 190%) rotate(0deg) scale(0.5);"/>
   </div>
 </template>
 
@@ -13,22 +20,10 @@
   height: 100%;
   z-index: -1;
 
-  .substrate_elem_purple {
+  .substrate_elem {
     position: absolute;
-    width: 100vmin;
     opacity: 1;
-
-    &:nth-child(1) {
-      transform: translate(-30%, -10%) rotate(0deg) scale(1);
-    }
-
-    &:nth-child(2) {
-      transform: translate(55%, 25%) rotate(210deg) scale(0.9);
-    }
-
-    &:nth-child(3) {
-      transform: translate(-40%, 120%) rotate(-25deg) scale(0.9);
-    }
+    width: 100%;
   }
 }
 </style>
