@@ -4,6 +4,7 @@ import MainViewHeader from './widget/MainViewHeader.vue'
 import MainViewMainInfo from './widget/MainViewMainInfo.vue'
 import MainViewAbout from './widget/MainViewAbout.vue'
 import MainViewWhatInside from './widget/MainViewWhatInside.vue'
+import MainViewInvite from './widget/MainViewInvite.vue'
 </script>
 
 <template>
@@ -16,14 +17,45 @@ import MainViewWhatInside from './widget/MainViewWhatInside.vue'
       <MainViewMainInfo />
       <MainViewAbout />
       <MainViewWhatInside />
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <MainViewInvite />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   </div>
 </template>
