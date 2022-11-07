@@ -30,10 +30,6 @@ import GradientButton from '@/components/other/GradientButton.vue'
 </template>
 
 <style lang="scss" scoped>
-b {
-    font-weight: 600;
-}
-
 .subscribe {
     margin-top: 8em;
 }

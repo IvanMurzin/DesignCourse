@@ -29,6 +29,9 @@ const themeOverrides: GlobalThemeOverrides = {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+b {
+  font-weight: 600;
+}
 
 body {
   background: #fefefe;
@@ -40,11 +43,10 @@ body {
   font-weight: 500;
 }
 
-.contraction {
-  padding: 0 10%;
-
-  &.abs {
-    width: 80%;
+@media screen and (max-height: 30em),
+screen and (max-width: 30em) {
+  #app {
+    font-size: 0.6em;
   }
 }
 
@@ -80,6 +82,15 @@ a {
   opacity: 1;
 }
 
+
+.contraction {
+  padding: 0 10%;
+
+  &.abs {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .contraction {
     padding: 0 5%;
@@ -102,16 +113,7 @@ a {
       width: 96%;
     }
   }
-
-  @media screen and (max-height: 30em),
-  screen and (max-width: 30em) {
-    #app {
-      font-size: 0.6em;
-    }
-  }
 }
-
-
 
 @keyframes spin {
   0% {

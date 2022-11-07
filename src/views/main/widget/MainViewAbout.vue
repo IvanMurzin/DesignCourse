@@ -1,8 +1,3 @@
-<script setup lang="ts">
-import MainViewTitle from '@/components/other/MainViewTitle.vue';
-
-</script>
-
 <template>
   <div class="screen">
     <img class="window" src="@/assets/window.svg" alt="design course logo" />
@@ -35,6 +30,13 @@ import MainViewTitle from '@/components/other/MainViewTitle.vue';
   font-weight: 600;
   margin: 0.3em 0 0.2em;
 
+  @media screen and (max-width: 1200px) {
+    font-size: 2.8em;
+  }
+
+  @media screen and (max-width: 990px) {
+    font-size: 2.5em;
+  }
 
   @media screen and (max-width: 600px) {
     font-size: 2em;
@@ -50,8 +52,7 @@ import MainViewTitle from '@/components/other/MainViewTitle.vue';
   font-size: 3em;
   color: black;
   font-weight: 400;
-  margin: 0.3em 0 0.2em;
-
+  margin: 0.3em 0.2em 0.2em;
 
   @media screen and (max-width: 1350px) {
     font-size: 2.8em;

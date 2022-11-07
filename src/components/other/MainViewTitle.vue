@@ -6,14 +6,14 @@ defineProps<{
 
 <template>
     <section>
-        <h2 class="section-name">{{ name }}</h2>
+        <h2 class="main_title">{{ name }}</h2>
         <slot />
     </section>
 </template>
 
 <style lang="scss" scoped>
 section {
-    .section-name {
+    .main_title {
         font-size: 6em;
         color: black;
         font-weight: 600;
@@ -21,10 +21,9 @@ section {
     }
 
     @media screen and (max-width: 900px) {
-        .section-name {
+        .main_title {
             font-size: 4em;
         }
-
     }
 }
 </style>

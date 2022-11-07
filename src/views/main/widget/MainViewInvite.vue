@@ -27,22 +27,10 @@ import logo from '@/assets/logo/design_logo.svg'
 </template>
 
 <style lang="scss" scoped>
-b {
-    font-weight: 600;
-}
-
 .invite_item {
     display: grid;
     margin-top: 3em;
     grid-template-columns: 3.5em 1fr;
-}
-
-.invite_text {
-    margin: -0.2em 0 0 1em;
-    color: black;
-    font-weight: 400;
-    text-align: justify;
-    font-size: 3em;
 }
 
 @media screen and (max-width: 900px) {
@@ -55,5 +43,13 @@ b {
     .invite_text {
         font-size: 2em;
     }
+}
+
+.invite_text {
+    margin: -0.2em 0 0 1em;
+    color: black;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 3em;
 }
 </style>

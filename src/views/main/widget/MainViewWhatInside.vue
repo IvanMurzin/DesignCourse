@@ -23,6 +23,12 @@ import BorderedItem from '@/components/other/BorderedItem.vue'
 </template>
 
 <style lang="scss" scoped>
+.section {
+    color: white;
+    margin-left: 1em;
+    margin-top: 5em;
+}
+
 .title_info {
     font-size: 3.8em;
     color: black;
@@ -32,12 +38,6 @@ import BorderedItem from '@/components/other/BorderedItem.vue'
     @media screen and (max-width: 600px) {
         font-size: 2em;
     }
-}
-
-.section {
-    color: white;
-    margin-left: 1em;
-    margin-top: 5em;
 }
 
 .learning-order {

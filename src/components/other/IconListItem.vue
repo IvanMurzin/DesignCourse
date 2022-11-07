@@ -1,7 +1,7 @@
 <template>
   <div class="item">
     <img style="width: 100%" :src="logo" alt="" />
-    <p class="item__text">
+    <p class="item_text">
       <slot />
     </p>
   </div>
@@ -19,7 +19,7 @@ import logo from '@/assets/logo/design_logo.svg'
   grid-template-columns: 3.5em 1fr;
 }
 
-.item__text {
+.item_text {
   margin: 0 0 0 1em;
   color: black;
   font-weight: 600;
@@ -27,14 +27,13 @@ import logo from '@/assets/logo/design_logo.svg'
 }
 
 @media screen and (max-width: 900px) {
-  .item__text {
-
+  .item_text {
     font-size: 2.5em;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .item__text {
+  .item_text {
     font-size: 2em;
   }
 }

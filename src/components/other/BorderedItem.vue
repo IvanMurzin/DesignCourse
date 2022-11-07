@@ -5,8 +5,8 @@ defineProps<{
 </script>
 <template>
   <div class="item">
-    <h2 class="item__title">{{ title }}</h2>
-    <span class="item__text">
+    <h2 class="item_title">{{ title }}</h2>
+    <span class="item_text">
       <slot />
     </span>
   </div>
@@ -26,9 +26,13 @@ defineProps<{
   height: 100%;
   box-sizing: border-box;
 }
+@media screen and (max-width: 1160px) {
+  .item {
+    height: auto;
+  }
+}
 
-
-.item__title {
+.item_title {
   font-weight: 600;
   font-size: 2em;
   margin-bottom: 0.3em;
@@ -36,7 +40,7 @@ defineProps<{
   color: black;
 }
 
-.item__text {
+.item_text {
   font-weight: 400;
   letter-spacing: 0.03em;
   font-size: 1.5em;
@@ -44,18 +48,13 @@ defineProps<{
   color: black;
 }
 
-@media screen and (max-width: 1160px) {
-  .item {
-    height: auto;
-  }
-}
 
 @media screen and (max-width: 900px) {
   .item {
     font-size: 0.8em;
   }
 
-  .item__title {
+  .item_title {
     font-size: 1.6em;
   }
 }

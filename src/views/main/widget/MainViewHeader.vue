@@ -5,10 +5,10 @@ import GradientButton from '@/components/other/GradientButton.vue'
 
 <template>
   <div class="header">
-    <a class="a" tabindex="1" href="https://kotlinlang.org/">
+    <a class="a" tabindex="1" href="https://figma.org">
       <img style="width: 100%" src="@/assets/logo/design_logo.svg" alt="design course logo" />
     </a>
-    <div class="header__dc"></div>
+    <div class="header_text"></div>
     <GradientButton @click="">Войти</GradientButton>
     <div class="sized_box"></div>
     <a class="a" tabindex="2" href="https://mephi.ru/">
@@ -38,7 +38,7 @@ import GradientButton from '@/components/other/GradientButton.vue'
     margin-bottom: 1em;
   }
 
-  .header__dc:before {
+  .header_text:before {
     content: 'UI/UX';
     font-family: "Roboto";
     font-style: normal;
@@ -48,12 +48,13 @@ import GradientButton from '@/components/other/GradientButton.vue'
     color: white;
     -webkit-text-stroke: 2px #000;
     user-select: none;
+
     @media screen and (max-width: 1400px) {
       font-size: 3em;
     }
   }
 
-  .header__dc:after {
+  .header_text:after {
     content: 'Design Course';
     font-family: "Roboto";
     font-style: normal;
@@ -64,15 +65,15 @@ import GradientButton from '@/components/other/GradientButton.vue'
     color: black;
     user-select: none;
 
-    @media screen and (max-width: 1160px) {
-      content: '';
-    }
 
     @media screen and (max-width: 1400px) {
       font-size: 3em;
     }
-  }
 
+    @media screen and (max-width: 1160px) {
+      content: '';
+    }
+  }
 
   .gradient-btn {
     background: transparent;

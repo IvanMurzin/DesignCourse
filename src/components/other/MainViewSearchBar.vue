@@ -26,15 +26,6 @@
     font-weight: 600;
     margin: 0.3em 0 0.2em;
 }
-
-
-.search_icon {
-    position: absolute;
-    height: 50%;
-    top: 25%;
-    right: 0.8em;
-}
-
 @media screen and (max-width: 900px) {
     .search_text {
         top: 5%;
@@ -48,5 +39,12 @@
         font-size: 2em;
     }
 
+}
+
+.search_icon {
+    position: absolute;
+    height: 50%;
+    top: 25%;
+    right: 0.8em;
 }
 </style>
