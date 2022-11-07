@@ -10,9 +10,7 @@ import MainViewFooter from './widget/MainViewFooter.vue'
 </script>
 
 <template>
-  <div class="contraction abs">
-    <main-view-header />
-  </div>
+  <main-view-header />
   <div class="main-view contraction abs">
     <MainViewSubstrate />
     <div class="wrapper">

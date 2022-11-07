@@ -53,10 +53,27 @@ import BorderedItem from '@/components/other/BorderedItem.vue'
         1fr 1fr;
     align-items: center;
 
+    @media screen and (max-width: 1160px) {
+        margin: 2.5em auto;
+        grid-gap: 6em 8em;
+        grid-template-columns: 1fr 1fr;
+    }
+
     @media screen and (max-width: 900px) {
         margin: 2em auto;
         grid-gap: 4em 6em;
         grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: 600px) {
+        display: list-item;
+    }
+
+    .item {
+        @media screen and (max-width: 600px) {
+            margin-top: 4em;
+            width: 100%;
+        }
     }
 }
 </style>

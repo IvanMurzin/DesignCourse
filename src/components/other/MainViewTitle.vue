@@ -20,9 +20,20 @@ section {
         margin: 0.3em 0 0.2em;
     }
 
+    @media screen and (max-width: 1200px) {
+        .main_title {
+            font-size: 5em;
+        }
+    }
+
     @media screen and (max-width: 900px) {
         .main_title {
             font-size: 4em;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .main_title {
+            font-size: 3em;
         }
     }
 }

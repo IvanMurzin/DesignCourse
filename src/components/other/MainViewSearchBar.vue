@@ -25,20 +25,21 @@
     color: black;
     font-weight: 600;
     margin: 0.3em 0 0.2em;
-}
-@media screen and (max-width: 900px) {
-    .search_text {
+
+    @media screen and (max-width: 1400px) {
+        top: 0;
+        font-size: 2.8em;
+    }
+
+    @media screen and (max-width: 1160px) {
         top: 5%;
         font-size: 2.5em;
     }
 
-}
-@media screen and (max-width: 600px) {
-    .search_text {
+    @media screen and (max-width: 600px) {
         top: 15%;
         font-size: 2em;
     }
-
 }
 
 .search_icon {

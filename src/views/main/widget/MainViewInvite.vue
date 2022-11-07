@@ -33,17 +33,6 @@ import logo from '@/assets/logo/design_logo.svg'
     grid-template-columns: 3.5em 1fr;
 }
 
-@media screen and (max-width: 900px) {
-    .invite_text {
-        font-size: 2.5em;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .invite_text {
-        font-size: 2em;
-    }
-}
 
 .invite_text {
     margin: -0.2em 0 0 1em;
@@ -51,5 +40,17 @@ import logo from '@/assets/logo/design_logo.svg'
     font-weight: 400;
     text-align: justify;
     font-size: 3em;
+
+    @media screen and (max-width: 1300px) {
+        font-size: 2.5em;
+    }
+
+    @media screen and (max-width: 900px) {
+        font-size: 2.3em;
+    }
+
+    @media screen and (max-width: 600px) {
+        font-size: 1.5em;
+    }
 }
 </style>

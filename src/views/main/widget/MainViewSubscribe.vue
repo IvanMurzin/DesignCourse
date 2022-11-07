@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import GradientButton from '@/components/other/GradientButton.vue'
+import DynamicButtonLarge from '@/components/other/DynamicButtonLarge.vue'
 
 </script>
 <template>
@@ -24,14 +24,23 @@ import GradientButton from '@/components/other/GradientButton.vue'
             </p>
         </div>
     </div>
-    <GradientButton class="join-btn" @click="">
+    <DynamicButtonLarge class="join-btn" @click="">
         Подать заявку
-    </GradientButton>
+    </DynamicButtonLarge>
 </template>
 
 <style lang="scss" scoped>
 .subscribe {
     margin-top: 8em;
+}
+
+.join-btn {
+    font-size: 2.2em;
+    display: block;
+    margin: 2em auto 1em;
+    background: white;
+    width: 300px;
+    height: 80px;
 }
 
 .item_num {
@@ -55,6 +64,16 @@ import GradientButton from '@/components/other/GradientButton.vue'
     font-size: 3em;
 }
 
+@media screen and (max-width: 1300px) {
+    .subscribe_text {
+        font-size: 3em;
+    }
+
+    .item_num {
+        font-size: 5em;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .subscribe_text {
         font-size: 2.5em;
@@ -63,6 +82,12 @@ import GradientButton from '@/components/other/GradientButton.vue'
 
     .item_num {
         font-size: 5em;
+    }
+
+    .join-btn {
+        font-size: 2.2em;
+        width: 250px;
+        height: 60px;
     }
 }
 
@@ -75,23 +100,22 @@ import GradientButton from '@/components/other/GradientButton.vue'
     .item_num {
         font-size: 3em;
     }
+
+    .join-btn {
+        font-size: 2em;
+        width: 200px;
+        height: 50px;
+    }
 }
 
 .title_info {
     color: black;
     font-weight: 600;
     margin: 0.3em 0 0.2em;
-    font-size: 4em;
+    font-size: 3.8em;
 
     @media screen and (max-width: 600px) {
         font-size: 2em;
     }
-}
-
-.join-btn {
-    font-size: 1.8em;
-    display: block;
-    margin: 2em auto 1em;
-    background: transparent;
 }
 </style>

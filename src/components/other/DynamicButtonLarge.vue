@@ -23,7 +23,7 @@ export default defineComponent({
   
 <style scoped  lang="scss">
 $border: 2px;
-$offset: 7px;
+$offset: 10px;
 
 button {
     font-size: 1.3em;
@@ -56,7 +56,7 @@ button {
 
     &:hover {
         &::before {
-            transform: translate3d($offset+1.5*$border , -$offset - 1.5* $border , 0);
+            transform: translate3d($offset+3*$border , -$offset - 3* $border , 0);
         }
 
         &::after {

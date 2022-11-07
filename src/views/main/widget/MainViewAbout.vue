@@ -38,8 +38,28 @@
     font-size: 2.5em;
   }
 
+  @media screen and (max-width: 900px) {
+    font-size: 2.8em;
+  }
+
+  @media screen and (max-width: 750px) {
+    font-size: 2.5em;
+  }
+
+  @media screen and (max-width: 690px) {
+    font-size: 2.3em;
+  }
+
   @media screen and (max-width: 600px) {
     font-size: 2em;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 1.6em;
+  }
+
+  @media screen and (max-width: 400px) {
+    font-size: 1.3em;
   }
 }
 
@@ -66,8 +86,29 @@
     font-size: 2em;
   }
 
+  @media screen and (max-width: 900px) {
+    font-size: 2.5em;
+  }
+
+  @media screen and (max-width: 750px) {
+    font-size: 2.3em;
+  }
+
+
+  @media screen and (max-width: 690px) {
+    font-size: 2em;
+  }
+
   @media screen and (max-width: 600px) {
     font-size: 1.5em;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 1.3em;
+  }
+
+  @media screen and (max-width: 400px) {
+    font-size: 1.2em;
   }
 }
 </style>
