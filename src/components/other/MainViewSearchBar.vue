@@ -37,8 +37,8 @@
     }
 
     @media screen and (max-width: 600px) {
-        top: 15%;
-        font-size: 2em;
+        top: 18%;
+        font-size: 1.8em;
     }
 }
 
